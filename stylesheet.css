@@ -1,0 +1,225 @@
+body{
+	background-size: cover;
+	background-position: center;
+	min-height:100vh;
+}
+
+*{
+    margin:0; padding:0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+
+header{
+	position: fixed;
+	top: 0; left: 0; right:0;
+	background: #000000;
+	box-shadow: 0 5px 10px rgba(0,0,0,.1);
+	padding: 0px 4%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+header .logo{
+	display: absolute;
+	font-weight: lighter;
+	font-size: 2.7vh;
+	color: #fff;
+	margin-left: 50px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header .navbar ul{
+	list-style: none;
+}
+
+header .navbar ul li{
+	position: relative;
+	float: left;
+}
+
+header .navbar ul li a{
+	font-size: 20px;
+	padding: 15px;
+	color: #fff;
+	display: block;
+	font-weight: lighter;
+}
+
+header .navbar ul li a:hover{
+	color:#888;
+}
+
+header .navbar ul li ul{
+	position: absolute;
+	left:0;
+	width: 200px;
+	background: #000;
+	display: none;
+}
+
+header .navbar ul li ul li{
+	width: 100%;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+header .navbar ul li ul li ul{
+	left:200px;
+	top:0;
+}
+
+header .navbar ul li:hover > ul{
+	display: initial;
+}
+
+.notable{
+	float: left;
+	width: 100%;
+	background-color: black;
+}
+
+.logopic{
+	width: 40px;
+	position: absolute;
+}
+
+.notable-1{
+	width:25%;
+	background-color: white;
+	float:left;
+	margin-left:6%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+.notable1-pic{
+	width:100%;
+}
+
+.notable-2{
+	width:25%;
+	background-color:white;
+	float:left;
+	margin-left:6.5%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.notable2-pic{
+	width:100%;
+}
+
+.notable-3{
+	width:25%;
+	background-color:white;
+	float:left;
+	margin-left:6.5%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.notable3-pic{
+	width:100%;
+}
+
+.pic-title{
+	font-size: 2vw;
+	text-align: center;
+	font-family: Roboto;
+	padding: 10px;
+}
+.pic-des{
+	font-size: 1.5vw;
+	text-align: center;
+	font-family: Roboto;
+}
+
+.bottom{
+	background-color: ivory;
+	border-bottom-left-radius: 10px;
+}
+
+
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+.banner-1{
+	margin-top: 100px;
+	width:55%;
+	height:70vh;
+	padding-left:5vw;
+	padding-right:5vw;
+	float:left;
+}
+
+.banner-2{
+	margin-top: 100px;
+	width:45%;
+	height:70vh;
+	padding-right:5vw;
+	float:left;
+}
